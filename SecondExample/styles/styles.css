@@ -8,6 +8,15 @@ div {
     font-family: Roboto, sans-serif;
     min-width: 80%;
     margin: 20px auto;
-    font-size: 20px;
+    font-size: 60px;
     letter-spacing: 1px;
+}
+
+.cursor {
+    opacity: 0;
+    transition: .2s;
+}
+
+.cursor.active {
+    opacity: 1;
 }
